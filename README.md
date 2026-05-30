@@ -1,86 +1,77 @@
-# KeyAlgorithms
+# Foundations
 
-A collection of algorithms, data structures, simulations, and projects implemented from scratch while studying Computer Science, Mathematics, Robotics, and Artificial Intelligence.
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)
+![C++](https://img.shields.io/badge/C%2B%2B-17-blue?style=flat-square&logo=cplusplus)
+![Algorithms](https://img.shields.io/badge/Algorithms-Implemented-success?style=flat-square)
+![Data Structures](https://img.shields.io/badge/Data_Structures-Implemented-success?style=flat-square)
+![Robotics](https://img.shields.io/badge/Robotics-Active-orange?style=flat-square)
+![Research](https://img.shields.io/badge/Research-In_Progress-red?style=flat-square)
 
-## Purpose
+A collection of algorithms, data structures, mathematical models, and robotics systems implemented from first principles.
 
-This repository serves as a personal learning archive and implementation portfolio. The focus is on understanding algorithms and systems by building them from first principles rather than relying heavily on external libraries.
+---
 
-The repository contains both foundational computer science concepts and larger applied projects.
+## Overview
 
-## Areas Covered
+This repository serves as a centralized collection of implementations developed while studying Computer Science, Mathematics, and Robotics.
 
-### Data Structures & Algorithms
+The emphasis is on understanding systems through implementation rather than treating algorithms as black-box tools. Projects range from fundamental algorithmic techniques to larger autonomous navigation and probabilistic robotics systems.
 
-Implementations of core algorithmic techniques and problem-solving patterns.
+---
 
-Examples include:
+## Domains
 
-* Sliding Window
-* Two Pointers
-* Binary Search
-* Recursion
-* Dynamic Programming
-* Graph Algorithms
-* Tree Algorithms
-* Greedy Algorithms
-* Backtracking
+### Algorithms
 
-The goal is to develop strong algorithmic intuition and problem-solving skills while maintaining clean and efficient implementations.
+- Sliding Window
+- Two Pointers
+- Binary Search
+- Recursion
+- Dynamic Programming
+- Greedy Algorithms
+- Graph Algorithms
+- Tree Algorithms
+- Backtracking
+
+### Data Structures
+
+- Arrays
+- Linked Lists
+- Stacks
+- Queues
+- Trees
+- Graphs
+- Hash-Based Structures
 
 ### Robotics
 
-Algorithms for autonomous navigation and probabilistic robotics.
+- Localization
+- Mapping
+- Path Planning
+- Autonomous Exploration
+- State Estimation
+- Sensor Fusion
 
-Examples include:
+### Mathematics & Scientific Computing
 
-* Particle Filter Localization
-* Extended Kalman Filter Localization
-* Occupancy Grid Mapping
-* Costmap Generation
-* A* Path Planning
-* Frontier-Based Exploration
+- Numerical Methods
+- Probability & Statistics
+- Optimization
+- Linear Algebra Applications
 
-### Probabilistic Robotics
+### Research Reproduction
 
-State estimation and uncertainty-aware robotics systems.
-
-Examples include:
-
-* Bayesian Filtering
-* Kalman Filters
-* Particle Filters
-* Motion Models
-* Sensor Models
-
-### Mathematical & Scientific Computing
-
-Implementations and simulations of mathematical models and computational techniques.
-
-Examples include:
-
-* Numerical Methods
-* Optimization Algorithms
-* Statistical Modeling
-* Scientific Simulations
-
-### Research Implementations
-
-Reproductions and implementations of influential research papers.
+Implementation and analysis of influential research papers.
 
 Planned topics include:
 
-* FastSLAM
-* GraphSLAM
-* Motion Planning
-* Autonomous Navigation
-* Probabilistic Robotics
+- FastSLAM
+- GraphSLAM
+- Motion Planning
+- Probabilistic Robotics
+- Autonomous Navigation
 
-## Philosophy
-
-I learn best by building. Whenever possible, algorithms are implemented from scratch and accompanied by experiments, visualizations, and analysis.
-
-The objective is not only to make something work, but to understand why it works.
+---
 
 ## Repository Structure
 
@@ -88,17 +79,57 @@ The objective is not only to make something work, but to understand why it works
 KeyAlgorithms/
 │
 ├── robotics/
-├── data_structures/
 ├── algorithms/
+├── data_structures/
 ├── mathematics/
 ├── optimization/
-└── ...
+└── research/
 ```
+
+---
+
+## Featured Projects
+
+### Frontier Exploration Framework
+
+A complete autonomous exploration system integrating:
+
+- Particle Filter Localization
+- Occupancy Grid Mapping
+- Costmap Generation
+- A* Path Planning
+- Frontier-Based Exploration
+
+### Upcoming Projects
+
+- FastSLAM From Scratch
+- GraphSLAM
+- Research Paper Replication
+- Advanced Motion Planning
+
+---
 
 ## Current Focus
 
-* Robotics
-* Probabilistic Robotics
-* Research Paper Reproduction
-* Autonomous Navigation
-* Advanced Algorithms
+- Probabilistic Robotics
+- Autonomous Navigation
+- Research Paper Implementation
+- Advanced Algorithms
+
+---
+
+## References
+
+- Probabilistic Robotics — Thrun, Burgard, Fox
+- Introduction to Algorithms (CLRS)
+- Modern Robotics — Lynch & Park
+- Planning Algorithms — Steven M. LaValle
+- Pattern Recognition and Machine Learning — Bishop
+
+---
+
+## Author
+
+**Om Anand**  
+Computer Science & Mathematics  
+Pennsylvania State University

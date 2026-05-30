@@ -1,88 +1,134 @@
 # Robotics
 
-A collection of robotics algorithms and autonomous navigation projects implemented from scratch.
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)
+![C++](https://img.shields.io/badge/C%2B%2B-17-blue?style=flat-square&logo=cplusplus)
+![Localization](https://img.shields.io/badge/Localization-Implemented-success?style=flat-square)
+![Mapping](https://img.shields.io/badge/Mapping-Implemented-success?style=flat-square)
+![Planning](https://img.shields.io/badge/Planning-Implemented-success?style=flat-square)
+![SLAM](https://img.shields.io/badge/SLAM-Upcoming-orange?style=flat-square)
+
+Robotics algorithms and autonomous navigation systems implemented from first principles.
+
+---
 
 ## Overview
 
-This directory contains work related to localization, mapping, planning, exploration, and probabilistic robotics.
+This directory contains implementations related to localization, mapping, planning, exploration, and probabilistic robotics.
 
-The primary objective is to build a strong foundation before progressing to research-level topics such as SLAM and autonomous navigation papers.
-
----
-
-## Localization
-
-Implemented techniques for estimating robot pose under uncertainty.
-
-### Included
-
-* 1D Kalman Filter
-* 2D Pose Estimation
-* Extended Kalman Filter (EKF)
-* Particle Filter Localization
+The objective is to develop a complete understanding of autonomous navigation systems before progressing toward research-level topics such as FastSLAM, GraphSLAM, and modern SLAM architectures.
 
 ---
 
-## Mapping
+## Technology Stack
 
-Environment representation and occupancy estimation.
+### Languages
 
-### Included
+- Python
+- C++
 
-* Occupancy Grid Mapping
-* Log-Odds Mapping
-* Costmap Generation
-* Obstacle Inflation
+### Libraries
 
----
+- NumPy
+- Matplotlib
 
-## Planning
+### Planned Ecosystem
 
-Path planning and exploration algorithms.
-
-### Included
-
-* A* Path Planning
-* Frontier Detection
-* Frontier Clustering
-* Information Gain Exploration
-* Revisit Penalties
-* Uncertainty-Aware Exploration
+- ROS2
+- Gazebo
+- RViz
 
 ---
 
-## Experiments
+## Implemented Systems
 
-Evaluation and analysis tools.
+### Localization
 
-### Included
-
-* Exploration Metrics
-* Experiment Logging
-* Visualization Utilities
-* Strategy Comparison Framework
+| Algorithm | Status |
+|------------|---------|
+| 1D Kalman Filter | ✓ |
+| 2D Pose Estimation | ✓ |
+| Extended Kalman Filter (EKF) | ✓ |
+| Particle Filter Localization | ✓ |
 
 ---
 
-## Frontier Exploration Project
+### Mapping
 
-A complete autonomous exploration simulation combining:
+| Component | Status |
+|------------|---------|
+| Occupancy Grid Mapping | ✓ |
+| Log-Odds Updates | ✓ |
+| Costmap Generation | ✓ |
+| Obstacle Inflation | ✓ |
 
-* Particle Filter Localization
-* Occupancy Grid Mapping
-* Costmap Planning
-* A* Navigation
-* Frontier-Based Exploration
+---
 
-### Features
+### Planning
 
-* Frontier clustering
-* Information gain scoring
-* Revisit avoidance
-* Frontier memory
-* Scan recovery behavior
-* Exploration termination conditions
-* Experimental evaluation
+| Algorithm | Status |
+|------------|---------|
+| A* Search | ✓ |
+| Cost-Aware Planning | ✓ |
+| Frontier Detection | ✓ |
+| Frontier Clustering | ✓ |
+
+---
+
+### Exploration
+
+| Feature | Status |
+|------------|---------|
+| Nearest Frontier Selection | ✓ |
+| Information Gain Exploration | ✓ |
+| Revisit Penalties | ✓ |
+| Frontier Memory | ✓ |
+| Uncertainty-Aware Exploration | ✓ |
+| Recovery Behaviors | ✓ |
+
+---
+
+## Frontier Exploration Framework
+
+The current flagship project integrates:
+
+```text
+Particle Filter Localization
+            +
+Occupancy Grid Mapping
+            +
+Costmap Generation
+            +
+A* Path Planning
+            +
+Frontier-Based Exploration
+```
+
+to produce a complete autonomous exploration pipeline.
+
+### Implemented Features
+
+- Frontier Clustering
+- Information Gain Scoring
+- Revisit Penalties
+- Frontier Memory
+- Reachability Filtering
+- Costmap-Based Navigation
+- Recovery Behaviors
+- Exploration Metrics Logging
+- Strategy Comparison Framework
+
+---
+
+## Experimental Evaluation
+
+The framework includes tooling for measuring:
+
+- Mapping Coverage
+- Distance Traveled
+- Localization Uncertainty
+- Effective Sample Size (ESS)
+- Frontier Statistics
+- Exploration Strategy Performance
 
 ### Strategies Evaluated
 
@@ -97,24 +143,37 @@ A complete autonomous exploration simulation combining:
 
 ### Completed
 
-* Localization
-* Mapping
-* Planning
-* Frontier Exploration
+- Localization
+- Mapping
+- Planning
+- Frontier Exploration
 
-### In Progress
+### Next
 
-* Research Paper Reproduction
+- FastSLAM 1.0
+- FastSLAM 2.0
+- GraphSLAM
 
-### Planned
+### Long-Term
 
-* FastSLAM 1.0
-* FastSLAM 2.0
-* GraphSLAM
-* Advanced Motion Planning Papers
+- Research Paper Replication
+- Autonomous Navigation Systems
+- Multi-Robot Exploration
+- Advanced Motion Planning
 
 ---
 
-## Goal
+## References
 
-Build a complete understanding of autonomous navigation systems by implementing increasingly sophisticated robotics algorithms from first principles.
+- Probabilistic Robotics — Thrun, Burgard, Fox
+- Planning Algorithms — Steven M. LaValle
+- Modern Robotics — Lynch & Park
+- FastSLAM: A Factored Solution to the Simultaneous Localization and Mapping Problem (Montemerlo et al.)
+
+---
+
+## Author
+
+**Om Anand**  
+Computer Science & Mathematics  
+Pennsylvania State University
