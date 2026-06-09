@@ -6,3 +6,10 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+# Compiled binaries
+*.exe
+robotics/FastSLAM/fastslam.exe
+
+# Compiled binaries
+*.exe
+robotics/FastSLAM/fastslam.exe
