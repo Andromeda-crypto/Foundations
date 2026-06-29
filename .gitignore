@@ -13,3 +13,4 @@ robotics/FastSLAM/fastslam.exe
 # Compiled binaries
 *.exe
 robotics/FastSLAM/fastslam.exe
+robotics/FastSLAM/fastslam_results.csv
